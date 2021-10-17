@@ -7,7 +7,7 @@ function test()
    json.forEach(element => {
        var li=document.createElement("li")
        li.innerHTML=element.name
-       ul.appendchild(li)
+       ul.appendChild(li)
    });
     
     
